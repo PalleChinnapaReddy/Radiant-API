@@ -1,0 +1,1504 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Radiant.API</name>
+    </assembly>
+    <members>
+        <member name="M:Radiant.API.Controllers.AbsenceReasonController.GetAll">
+            <summary>
+            Get all AbsenceReasons
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AbsenceReasonController.GetAbsenceReasonById(System.Int32)">
+            <summary>
+            Get AbsenceReason by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AbsenceReasonController.Create(Radiant.Business.Models.AbsenceReasonDto)">
+            <summary>
+            Create AbsenceReason
+            </summary>
+            <param name="absenceReason"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AbsenceReasonController.EditAbsenceReason(Radiant.Business.Models.AbsenceReasonDto)">
+            <summary>
+            Edit AbsenceReason
+            </summary>
+            <param name="absenceReason"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AbsenceReasonController.DeleteAbsenceReason(System.Int32)">
+            <summary>
+            Delete AbsenceReason
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AttendanceOtApprovalController.GetAll">
+            <summary>
+            Get all AttendanceOtApprovals
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AttendanceOtApprovalController.GetByManagerId(Radiant.Business.Models.FilterModels.AttendanceOtSearchDto)">
+            <summary>
+            Get all AttendanceOtApprovals By ManagerID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AttendanceOtApprovalController.GetAttendanceOtApprovalById(System.Int32)">
+            <summary>
+            Get AttendanceOtApproval by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AttendanceOtApprovalController.Create(Radiant.Business.Models.AttendanceOtApprovalDto)">
+            <summary>
+            Create AttendanceOtApproval
+            </summary>
+            <param name="attendanceOtApproval"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AttendanceOtApprovalController.EditAttendanceOtApproval(Radiant.Business.Models.AttendanceOtApprovalDto)">
+            <summary>
+            Edit AttendanceOtApproval
+            </summary>
+            <param name="attendanceOtApproval"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AttendanceOtApprovalController.DeleteAttendanceOtApproval(System.Int32)">
+            <summary>
+            Delete AttendanceOtApproval
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.AttendanceTypeController.GetAll">
+            <summary>
+            Get all Attendancetypes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CityController.GetAll">
+            <summary>
+            Get all Cities
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CityController.GetCitiesByState(System.Int64)">
+            <summary>
+            Get all Cities of state
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CityController.GetCityById(System.Int32)">
+            <summary>
+            Get City by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CityController.Create(Radiant.Business.Models.CityDto)">
+            <summary>
+            Create City
+            </summary>
+            <param name="city"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CityController.EditCity(Radiant.Business.Models.CityDto)">
+            <summary>
+            Edit City
+            </summary>
+            <param name="city"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CityController.DeleteCity(System.Int32)">
+            <summary>
+            Delete City
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorController.GetAll">
+            <summary>
+            Get all Contractors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorController.GetContractorById(System.Int32)">
+            <summary>
+            Get Contractor by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorController.Create(Radiant.Business.Models.ContractorDto)">
+            <summary>
+            Create Contractor
+            </summary>
+            <param name="contractor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorController.EditContractor(Radiant.Business.Models.ContractorDto)">
+            <summary>
+            Edit Contractor
+            </summary>
+            <param name="contractor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorController.DeleteContractor(System.Int32)">
+            <summary>
+            Delete Contractor
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorController.Search(Radiant.Business.Models.FilterModels.ContractorSearchDto)">
+            <summary>
+            Searches Contractors based on SearchCriteria Provided
+            </summary>
+            <param name="contractorSearchDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorTrackerController.GetAll">
+            <summary>
+            Get all ContractorTrackers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorTrackerController.GetContractorTrackerById(System.Int32)">
+            <summary>
+            Get ContractorTracker by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorTrackerController.Create(Radiant.Business.Models.ContractorTrackerDto)">
+            <summary>
+            Create ContractorTracker
+            </summary>
+            <param name="contractorTracker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorTrackerController.EditContractor(Radiant.Business.Models.ContractorTrackerDto)">
+            <summary>
+            Edit ContractorTracker
+            </summary>
+            <param name="contractorTracker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ContractorTrackerController.DeleteContractorTracker(System.Int32)">
+            <summary>
+            Delete ContractorTracker
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CountryController.GetAll">
+            <summary>
+            Get all Countries
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CountryController.GetCountryById(System.Int32)">
+            <summary>
+            Get Country by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CountryController.Create(Radiant.Business.Models.CountryDto)">
+            <summary>
+            Create Country
+            </summary>
+            <param name="country"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CountryController.EditCountry(Radiant.Business.Models.CountryDto)">
+            <summary>
+            Edit Country
+            </summary>
+            <param name="country"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CountryController.DeleteCountry(System.Int32)">
+            <summary>
+            Delete Country
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CurrencyController.GetAll">
+            <summary>
+            Get all Currencies
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CurrencyController.GetCurrencyById(System.Int32)">
+            <summary>
+            Get Currency by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CurrencyController.Create(Radiant.Business.Models.CurrencyDto)">
+            <summary>
+            Create Currency
+            </summary>
+            <param name="currency"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CurrencyController.EditCurrency(Radiant.Business.Models.CurrencyDto)">
+            <summary>
+            Edit Currency
+            </summary>
+            <param name="currency"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.CurrencyController.DeleteCurrency(System.Int32)">
+            <summary>
+            Delete Currency
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DepartmentController.GetAll">
+            <summary>
+            Get all Departments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DepartmentController.GetDepartmentWiseReport(System.DateTime)">
+            <summary>
+            Get all Department Wise Report
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DepartmentController.GetDepartmentById(System.Int32)">
+            <summary>
+            Get Department by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DepartmentController.Create(Radiant.Business.Models.DepartmentDto)">
+            <summary>
+            Create Department
+            </summary>
+            <param name="department"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DepartmentController.EditDepartment(Radiant.Business.Models.DepartmentDto)">
+            <summary>
+            Edit Department
+            </summary>
+            <param name="department"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DepartmentController.DeleteDepartment(System.Int32)">
+            <summary>
+            Delete Department
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DesignationController.GetAll">
+            <summary>
+            Get all Designations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DesignationController.GetDesignationById(System.Int32)">
+            <summary>
+            Get Designation by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DesignationController.Create(Radiant.Business.Models.DesignationDto)">
+            <summary>
+            Create Designation
+            </summary>
+            <param name="designation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DesignationController.EditDesignation(Radiant.Business.Models.DesignationDto)">
+            <summary>
+            Edit Designation
+            </summary>
+            <param name="designation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.DesignationController.DeleteDesignation(System.Int32)">
+            <summary>
+            Delete Designation
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EducationController.GetAll">
+            <summary>
+            Get all Educations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EducationController.GetEducationById(System.Int32)">
+            <summary>
+            Get Education by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EducationController.Create(Radiant.Business.Models.EducationDto)">
+            <summary>
+            Create Education
+            </summary>
+            <param name="education"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EducationController.EditEducation(Radiant.Business.Models.EducationDto)">
+            <summary>
+            Edit Education
+            </summary>
+            <param name="education"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EducationController.DeleteEducation(System.Int32)">
+            <summary>
+            Delete Education
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.GetAll">
+            <summary>
+            Get all EmployeeAttendance
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.GetEmployeeAttendanceReports(System.String,System.DateTime)">
+            <summary>
+            Get all EmployeeAttendanceReports
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.GetEmployeeAttendanceById(System.Int32)">
+            <summary>
+            Get EmployeeAttendance by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.Create(Radiant.Business.Models.EmployeeAttendanceDto)">
+            <summary>
+            Create EmployeeAttendance
+            </summary>
+            <param name="employeeAttendance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.EditEmployeeAttendance(Radiant.Business.Models.EmployeeAttendanceDto)">
+            <summary>
+            Edit EmployeeAttendance
+            </summary>
+            <param name="employeeAttendance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.DeleteEmployeeAttendance(System.Int32)">
+            <summary>
+            Delete EmployeeAttendance
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.GetEmployeeAttendanceByManager(Radiant.Business.Models.FilterModels.EmployeeAttendanceSearchDto)">
+            <summary>
+            Get Employee attendance using filters
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceController.GetSelectedEmployeeDetails(System.Int32)">
+            <summary>
+            Get SelectedEmployeeDetails by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceRefreshController.Create(System.Collections.Generic.List{Radiant.Business.Models.EmployeeattendancerefreshDto})">
+            <summary>
+            Add EmployeeAttendanceRefresh
+            </summary>
+            <param name="employeeattendancerefreshDtos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceSummaryController.GetAll">
+            <summary>
+            Get all EmployeeAttendanceSummaries
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceSummaryController.GetEmployeeAttendanceSummaryById(System.Int32)">
+            <summary>
+            Get EmployeeAttendanceSummary by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceSummaryController.Create(Radiant.Business.Models.EmployeeAttendanceSummaryDto)">
+            <summary>
+            Create EmployeeAttendanceSummary
+            </summary>
+            <param name="employeeAttendanceSummary"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceSummaryController.EditEmployeeAttendanceSummary(Radiant.Business.Models.EmployeeAttendanceSummaryDto)">
+            <summary>
+            Edit EmployeeAttendanceSummary
+            </summary>
+            <param name="employeeAttendanceSummary"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeAttendanceSummaryController.DeleteEmployeeAttendanceSummary(System.Int32)">
+            <summary>
+            Delete EmployeeAttendanceSummary
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetAll">
+            <summary>
+            Get all Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetAll(System.Boolean)">
+            <summary>
+            Get all Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetEmployeeById(System.Int32)">
+            <summary>
+            Get Employee by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.Create(Radiant.Business.Models.EmployeeDto)">
+            <summary>
+            Create Employee
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.EditEmployee(Radiant.Business.Models.EmployeeDto)">
+            <summary>
+            Edit Employee
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
+            <summary>
+            Delete Employee
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.DeleteEmployeeByBody(Radiant.Business.Models.EmployeeDeleteDto)">
+            <summary>
+            Deletes the Employee
+            </summary>
+            <param name="employeeDeleteDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.SearchEmployees(Radiant.Business.Models.FilterModels.EmployeeSearchDto)">
+            <summary>
+            Get all products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.BulkSearchEmployees(Radiant.Business.Models.BulkSearch)">
+            <summary>
+            Get Employees with given ids
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetEmployeesByRole(System.String)">
+            <summary>
+            Get Employees By Role
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetManagersByDepartment(System.Nullable{System.Int32})">
+            <summary>
+            Get Employees By Role
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetEmployeesByShift(System.Int64)">
+            <summary>
+            Get Employees By Shift
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.ChangePasswordByEmployeeId(Radiant.Business.Models.ChangePassword)">
+            <summary>
+            Change Password for Employee
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetLineDashboardData(Radiant.Business.Models.FilterModels.EmployeeLinesDashboardSearchDto)">
+            <summary>
+            Get Employees for LineDashboard
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.BulkEdit(Radiant.Business.Models.CustomizedAPI.EmployeeBulkEditDto)">
+            <summary>
+            
+            </summary>
+            <param name="bulkEditDto"></param>
+            <returns></returns>
+            [Produces("application/json")]
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.UpdateDependencies(Radiant.Business.Models.CustomizedAPI.UpdateDependencyDto)">
+            <summary>
+            Updates all dependencies for the specified Attribute
+            </summary>
+            <param name="updateDependencyDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.UpdateEmptyEmployees">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.BulkDelete(Radiant.Business.Models.EmployeeBulkDeleteDto)">
+            <summary>
+            Deletes the Employees
+            </summary>
+            <param name="bulkDeleteDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.BulkReactivate(Radiant.Business.Models.BulkReactivateDto)">
+            <summary>
+            Reactivates the Employees
+            </summary>
+            <param name="bulkReactivateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.GetEmployeesByManager(System.Nullable{System.Int64})">
+            <summary>
+            Returns the Employees of the Manager
+            </summary>
+            <param name="managerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeController.Get3rdPartyEmployees(System.Nullable{System.Int64})">
+            <summary>
+            Returns the Employees of the Manager
+            </summary>
+            <param name="managerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeRoleTrackerController.GetAll">
+            <summary>
+            Get all EmployeeRoleTrackers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeRoleTrackerController.GetEmployeeRoleTrackerById(System.Int32)">
+            <summary>
+            Get EmployeeRoleTracker by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeRoleTrackerController.Create(Radiant.Business.Models.EmployeeRoleTrackerDto)">
+            <summary>
+            Create EmployeeRoleTracker
+            </summary>
+            <param name="employeeRoleTracker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeRoleTrackerController.EditEmployeeRoleTracker(Radiant.Business.Models.EmployeeRoleTrackerDto)">
+            <summary>
+            Edit EmployeeRoleTracker
+            </summary>
+            <param name="employeeRoleTracker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeRoleTrackerController.DeleteEmployeeRoleTracker(System.Int32)">
+            <summary>
+            Delete EmployeeRoleTracker
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSalaryController.GetAll">
+            <summary>
+            Get all EmployeeSalaries
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSalaryController.GetEmployeeSalaryById(System.Int32)">
+            <summary>
+            Get EmployeeSalary by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSalaryController.Create(Radiant.Business.Models.EmployeeSalaryDto)">
+            <summary>
+            Create EmployeeSalary
+            </summary>
+            <param name="employeeSalary"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSalaryController.EditEmployeeSalary(Radiant.Business.Models.EmployeeSalaryDto)">
+            <summary>
+            Edit EmployeeSalary
+            </summary>
+            <param name="employeeSalary"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSalaryController.DeleteEmployeeSalary(System.Int32)">
+            <summary>
+            Delete EmployeeSalary
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.GetAll">
+            <summary>
+            Get all EmployeeSkills
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.GetEmployeeSkillById(System.Int32)">
+            <summary>
+            Get EmployeeSkill by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.Create(Radiant.Business.Models.EmployeeSkillDto)">
+            <summary>
+            Create EmployeeSkill
+            </summary>
+            <param name="employeeSkill"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.EditEmployeeSkill(Radiant.Business.Models.EmployeeSkillDto)">
+            <summary>
+            Edit EmployeeSkill
+            </summary>
+            <param name="employeeSkill"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.DeleteEmployeeSkill(System.Int32)">
+            <summary>
+            Delete EmployeeSkill
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.GetEmployeeSkillMatrix(Radiant.Business.Models.FilterModels.EmployeeSkillSearchDto)">
+            <summary>
+            Get  Employee Skill Matrix
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.GetEmployeeSkillMatrixByEmpId(System.Int64)">
+            <summary>
+            Get  Employee Skill Matrix by employeeid
+            </summary>
+            <param name="employeeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.PostEmpSkill(Radiant.Business.Models.EmployeeSkillRequestDto)">
+            <summary>
+            Delete EmployeeSkill
+            </summary>
+            <param name="employeeSkillRequestDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeSkillController.GetSkillSummaryReport(System.Nullable{System.Int64},System.Nullable{System.Int64},System.DateTime)">
+            <summary>
+            Generates Skill Summary Report
+            </summary>
+            <param name="departmentId"></param>
+            <param name="managerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeTrackerController.GetAll">
+            <summary>
+            Get all EmployeeTrackers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeTrackerController.GetEmployeeTrackerById(System.Int32)">
+            <summary>
+            Get EmployeeTracker by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeTrackerController.Create(Radiant.Business.Models.EmployeeTrackerDto)">
+            <summary>
+            Create EmployeeTracker
+            </summary>
+            <param name="employeeTracker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeTrackerController.CreateShift(Radiant.Business.Models.CustomizedAPI.EmployeeShiftUpdate)">
+            <summary>
+            Create EmployeeTrackers
+            </summary>
+            <param name="employeeShiftUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeTrackerController.EditEmployeeTracker(Radiant.Business.Models.EmployeeTrackerDto)">
+            <summary>
+            Edit EmployeeTracker
+            </summary>
+            <param name="employeeTracker"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.EmployeeTrackerController.DeleteEmployeeTracker(System.Int32)">
+            <summary>
+            Delete EmployeeTracker
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.GenderController.GetAll">
+            <summary>
+            Get all Genders
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.GenderController.GetGenderById(System.Int32)">
+            <summary>
+            Get Gender by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.GenderController.Create(Radiant.Business.Models.GenderDto)">
+            <summary>
+            Create Gender
+            </summary>
+            <param name="gender"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.GenderController.EditGender(Radiant.Business.Models.GenderDto)">
+            <summary>
+            Edit Gender
+            </summary>
+            <param name="gender"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.GenderController.DeleteGender(System.Int32)">
+            <summary>
+            Delete Gender
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HeadCountController.GetAssignedHeadCounts(Radiant.Business.Models.CustomizedAPI.AssignedHeadCountRequestDto)">
+            <summary>
+            Get Assigned HeadCounts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HeadCountController.UpdateAssignedHeadCounts(System.Collections.Generic.List{Radiant.Business.Models.HeadCountAssignedTypeDto})">
+            <summary>
+            Updates AssignedHeadCounts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayController.GetAll">
+            <summary>
+            Get all RadiantHolidays
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Radiant.API.Controllers.HolidayController.GetHolidaysByType(Radiant.Business.Models.FilterModels.RadiantHolidayFilterDto)" -->
+        <member name="M:Radiant.API.Controllers.HolidayController.GetRadiantHolidayById(System.Int32)">
+            <summary>
+            Get RadiantHoliday by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayController.Create(Radiant.Business.Models.RadiantHolidayDto)">
+            <summary>
+            Create RadiantHoliday
+            </summary>
+            <param name="radiantHoliday"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayController.CreateHolidays(System.Collections.Generic.List{Radiant.Business.Models.RadiantHolidayDto})">
+            <summary>
+            Create RadiantHolidays
+            </summary>
+            <param name="holidays"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayController.EditRadiantHoliday(Radiant.Business.Models.RadiantHolidayDto)">
+            <summary>
+            Edit RadiantHoliday
+            </summary>
+            <param name="radiantHoliday"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayController.DeleteRadiantHoliday(System.Int32)">
+            <summary>
+            Delete RadiantHoliday
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayTypeController.GetAll">
+            <summary>
+            Get all HolidayTypes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayTypeController.GetHolidayTypeById(System.Int32)">
+            <summary>
+            Get HolidayType by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayTypeController.Create(Radiant.Business.Models.HolidayTypeDto)">
+            <summary>
+            create holidayType
+            </summary>
+            <param name="holidayType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayTypeController.EditHolidayType(Radiant.Business.Models.HolidayTypeDto)">
+            <summary>
+            Edit holidayType
+            </summary>
+            <param name="holidayType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.HolidayTypeController.DeleteHolidayType(System.Int32)">
+            <summary>
+            Delete holidayType
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.LineController.GetAll">
+            <summary>
+            Get all Lines
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.LineController.GetLineById(System.Int32)">
+            <summary>
+            Get Line by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.LineController.Create(Radiant.Business.Models.LineDto)">
+            <summary>
+            Create Line
+            </summary>
+            <param name="line"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.LineController.EditLine(Radiant.Business.Models.LineDto)">
+            <summary>
+            Edit Line
+            </summary>
+            <param name="line"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.LineController.DeleteLine(System.Int32)">
+            <summary>
+            Delete Line
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.LineController.GetLineByDept(System.Int64,System.Int64)">
+            <summary>
+            Gets Lines
+            </summary>
+            <param name="deptId"></param>
+            <param name="subdeptId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.LineController.GetLinesDDValues">
+            <summary>
+            Gets Lines
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.MasterDataController.GetAll">
+            <summary>
+            Get all Cities
+            </summary>
+            <returns>list of cities </returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.MasterDataController.GetMartialStatus">
+            <summary>
+            Get all martialstatus 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.MasterDataController.GetPaymenttypes">
+            <summary>
+            Get all Paymenttypes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.MasterDataController.GetAttachementTypes">
+            <summary>
+            Get all Attachement Types
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.OtStatusController.GetAll">
+            <summary>
+            Get all OtStatus
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.OtStatusController.GetOtStatusById(System.Int32)">
+            <summary>
+            Get OtStatus by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.OtStatusController.Create(Radiant.Business.Models.OtStatusDto)">
+            <summary>
+            Create OtStatus
+            </summary>
+            <param name="otstatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.OtStatusController.EditOtStatus(Radiant.Business.Models.OtStatusDto)">
+            <summary>
+            Edit AbsenceReason
+            </summary>
+            <param name="absenceReason"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.OtStatusController.DeleteOtStatus(System.Int32)">
+            <summary>
+            Delete OtStatus
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollConfigController.GetAll">
+            <summary>
+            Get all PayrollConfigs
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollConfigController.GetPayrollConfigById(System.Int32)">
+            <summary>
+            Get PayrollConfig by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollConfigController.Create(Radiant.Business.Models.PayrollConfigDto)">
+            <summary>
+            Create PayrollConfig
+            </summary>
+            <param name="payrollConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollConfigController.EditPayrollConfig(Radiant.Business.Models.PayrollConfigDto)">
+            <summary>
+            Edit PayrollConfig
+            </summary>
+            <param name="payrollConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollConfigController.DeletePayrollConfig(System.Int32)">
+            <summary>
+            Delete PayrollConfig
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.GetAll">
+            <summary>
+            Get all Payrolls
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.GetPayrollById(System.Int64)">
+            <summary>
+            Get Payroll by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.Create(Radiant.Business.Models.PayrollDto)">
+            <summary>
+            Create Payroll
+            </summary>
+            <param name="payrollDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.EditGender(Radiant.Business.Models.PayrollDto)">
+            <summary>
+            Edit Payroll
+            </summary>
+            <param name="payroll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.DeleteGender(System.Int64)">
+            <summary>
+            Delete Payroll
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.GetConsolidationByMonth(System.String)">
+            <summary>
+            Get consolidationbymonth
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.GetConsolidationAttendanceByMonth(Radiant.Business.Models.ConsolidatedAttendanceByMonthFilterDto)">
+            <summary>
+            Get Consolidated Attendance by Month
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.GetPayrollAttendance(Radiant.Business.Models.AttendancePayrollFilterDto)">
+            <summary>
+            Get all attendance of that payroll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollController.GetPayrollReviewAttendance(Radiant.Business.Models.FilterModels.PayrollFilterDto)">
+            <summary>
+            Get all attendance of that payroll to review with deductions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollShiftController.GetAll">
+            <summary>
+            Get all Shifts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollShiftController.GetShiftById(System.Int32)">
+            <summary>
+            Get Shift by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollShiftController.Create(Radiant.Business.Models.PayrollshiftDto)">
+            <summary>
+            Create Shift
+            </summary>
+            <param name="shift"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollShiftController.EditShift(Radiant.Business.Models.PayrollshiftDto)">
+            <summary>
+            Edit Shift
+            </summary>
+            <param name="shift"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollShiftController.EditShift(System.Collections.Generic.List{Radiant.Business.Models.PayrollshiftDto})">
+            <summary>
+            Edit Shift
+            </summary>
+            <param name="shifts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollShiftController.ResetPayrollShifts(System.Collections.Generic.List{Radiant.Business.Models.PayrollshiftDto})">
+            <summary>
+            Delete Shift
+            </summary>
+            <param name="payrollshifts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PayrollShiftController.GetActiveShiftsByDate(System.DateTime)">
+            <summary>
+            Get active Shifts by date
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PlantController.GetAll">
+            <summary>
+            Get all Plants
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PlantController.GetPlantById(System.Int32)">
+            <summary>
+            Get Plant by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PlantController.Create(Radiant.Business.Models.PlantDto)">
+            <summary>
+            Create Plant
+            </summary>
+            <param name="plant"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PlantController.EditPlant(Radiant.Business.Models.PlantDto)">
+            <summary>
+            Edit Plant
+            </summary>
+            <param name="plant"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.PlantController.DeletePlant(System.Int32)">
+            <summary>
+            Delete Plant
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ProvinceController.GetAll">
+            <summary>
+            Get all Provinces
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ProvinceController.GetProvinceById(System.Int32)">
+            <summary>
+            Get Province by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ProvinceController.Create(Radiant.Business.Models.ProvinceDto)">
+            <summary>
+            Create Province
+            </summary>
+            <param name="province"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ProvinceController.EditProvince(Radiant.Business.Models.ProvinceDto)">
+            <summary>
+            Edit Province
+            </summary>
+            <param name="province"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ProvinceController.DeleteProvince(System.Int32)">
+            <summary>
+            Delete Province
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ReportController.GetAttendanceCountByDay(Radiant.Business.Models.Reports.AttendanceCountByDayFilterDto)">
+            <summary>
+            Get all AttendanceCountByDay
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ReportController.GetAttendanceByEmployee(Radiant.Business.Models.Reports.AttendanceByEmployeeFilterDto)">
+            <summary>
+            Get all AttendanceByEmployee
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ReportController.GetAttendanceCountByShift(Radiant.Business.Models.Reports.AttendanceCountByShiftFilterDto)">
+            <summary>
+            Get all AttendanceByEmployee
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ReportController.Create(System.String)">
+            <summary>
+            Upload Report
+            </summary>
+            <param name="folder_name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ReportController.GetFile(System.String)">
+            <summary>
+            Returns document content to display on UI or download
+            </summary>
+            <param name="relativePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.RoleController.GetAll">
+            <summary>
+            Get all Roles
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.RoleController.GetRoleById(System.Int32)">
+            <summary>
+            Get Role by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.RoleController.Create(Radiant.Business.Models.RoleDto)">
+            <summary>
+            Create Role
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.RoleController.EditRole(Radiant.Business.Models.RoleDto)">
+            <summary>
+            Edit Role
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.RoleController.DeleteRole(System.Int32)">
+            <summary>
+            Delete Role
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ScreensController.GetAll">
+            <summary>
+            Get all Screens
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ScreensController.GetScreensById(System.Int32)">
+            <summary>
+            Get Screens by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ScreensController.Create(Radiant.Business.Models.ScreensDto)">
+            <summary>
+            Create Screens
+            </summary>
+            <param name="Screens"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ScreensController.EditScreens(Radiant.Business.Models.ScreensDto)">
+            <summary>
+            Edit Screens
+            </summary>
+            <param name="Screens"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ScreensController.DeleteScreens(System.Int32)">
+            <summary>
+            Delete Screens
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ShiftController.GetAll">
+            <summary>
+            Get all Shifts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ShiftController.GetShiftById(System.Int32)">
+            <summary>
+            Get Shift by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ShiftController.Create(Radiant.Business.Models.ShiftDto)">
+            <summary>
+            Create Shift
+            </summary>
+            <param name="shift"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ShiftController.EditShift(Radiant.Business.Models.ShiftDto)">
+            <summary>
+            Edit Shift
+            </summary>
+            <param name="shift"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ShiftController.DeleteShift(System.Int32)">
+            <summary>
+            Delete Shift
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.ShiftController.GetActiveShiftsByDate(System.DateTime)">
+            <summary>
+            Get active Shifts by date
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SsntypeController.GetAll">
+            <summary>
+            Get all Ssdtypes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SsntypeController.GetSsdtypeById(System.Int32)">
+            <summary>
+            Get Ssdtype by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SsntypeController.Create(Radiant.Business.Models.SsntypeDto)">
+            <summary>
+            Create Ssdtype
+            </summary>
+            <param name="Ssdtype"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SsntypeController.EditSsdtype(Radiant.Business.Models.SsntypeDto)">
+            <summary>
+            Edit Ssdtype
+            </summary>
+            <param name="Ssdtype"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SsntypeController.DeleteSsdtype(System.Int32)">
+            <summary>
+            Delete Ssdtype
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.StageController.GetAll">
+            <summary>
+            Get all Stages
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.StageController.GetStageById(System.Int32)">
+            <summary>
+            Get Stage by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.StageController.Create(Radiant.Business.Models.StageDto)">
+            <summary>
+            Create Stage
+            </summary>
+            <param name="stage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.StageController.EditStage(Radiant.Business.Models.StageDto)">
+            <summary>
+            Edit Stage
+            </summary>
+            <param name="stage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.StageController.DeleteStage(System.Int32)">
+            <summary>
+            Delete Stage
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.StageController.GetStageByDeptAndLine(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Get Stages
+            </summary>
+            <param name="deptId"></param>
+            <param name="subdeptId"></param>
+            <param name="lineId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.StageController.GetStageByLine(System.Int64)">
+            <summary>
+            Get Stages by line
+            </summary>
+            <param name="lineId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SupplyTypeController.GetAll">
+            <summary>
+            Get all SupplyTypes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SupplyTypeController.GetSupplyTypeById(System.Int32)">
+            <summary>
+            Get SupplyType by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SupplyTypeController.Create(Radiant.Business.Models.SupplyTypeDto)">
+            <summary>
+            Create SupplyType
+            </summary>
+            <param name="SupplyType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SupplyTypeController.EditSupplyType(Radiant.Business.Models.SupplyTypeDto)">
+            <summary>
+            Edit SupplyType
+            </summary>
+            <param name="SupplyType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.SupplyTypeController.DeleteSupplyType(System.Int32)">
+            <summary>
+            Delete SupplyType
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.WorkerController.UpdateRadiantData">
+            <summary>
+            Updates RadiantDb with Employee and Attendance Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.WorkerController.UpdateEmployees(Radiant.Business.Models.DateRangeDto)">
+            <summary>
+            Updates RadiantDb with EmployeeData
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.Controllers.WorkerController.UpdateAttendance(Radiant.Business.Models.DateRangeDto)">
+            <summary>
+            Updates RadiantDb with AttendanceData
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Radiant.API.DependencyInjectionExtension.RegisterAll(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register dependencies
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

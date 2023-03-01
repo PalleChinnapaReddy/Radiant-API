@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Radiant.DataAccess.Models
+{
+    public partial class Loaddata
+    {
+        public string Type { get; set; }
+        public string Empcode { get; set; }
+        public string Salutation { get; set; }
+        public string Firstname { get; set; }
+        public string Middlename { get; set; }
+        public string Lastname { get; set; }
+        public string Dateofjoining { get; set; }
+        public string Dateofconfirmation { get; set; }
+        public string Dateofbirth { get; set; }
+        public string Status { get; set; }
+        public string Employeegroup { get; set; }
+        public string Attendancegroup { get; set; }
+        public string Leavegroup { get; set; }
+        public string Calendargroup { get; set; }
+        public string Attendancemodegroup { get; set; }
+        public string Attendancerulegroup { get; set; }
+        public string Reportingmanager { get; set; }
+        public string Paymentmode { get; set; }
+        public string Bankname { get; set; }
+        public string Bankaccountno { get; set; }
+        public string Nation { get; set; }
+        public string Gender { get; set; }
+        public string Officialemailaddress { get; set; }
+        public string Pfapplicable { get; set; }
+        public string Pfbasesalarylimit { get; set; }
+        public string Esicapplicable { get; set; }
+        public string Ptapplicable { get; set; }
+        public string Ptstate { get; set; }
+        public string Lwfapplicable { get; set; }
+        public string Panno { get; set; }
+        public string Fathername { get; set; }
+        public string PhysicalStatus { get; set; }
+        public string EmploymentType { get; set; }
+        public string Dateofprobation { get; set; }
+        public string Ifsccode { get; set; }
+        public string Bankbranch { get; set; }
+        public string Dateofmarriage { get; set; }
+        public string Bloodgroup { get; set; }
+        public string Lmsreportingmanager1 { get; set; }
+        public string Lmsreportingmanager2 { get; set; }
+        public string Lmsreportingmanager3 { get; set; }
+        public string Tnareportingmanager { get; set; }
+        public string Wagescode { get; set; }
+        public string Maritalstatus { get; set; }
+        public string Spousename { get; set; }
+        public string Personalemailaddress { get; set; }
+        public string Presentmobilenumber { get; set; }
+        public string Presentaddress { get; set; }
+        public string Presentcity { get; set; }
+        public string Presentstate { get; set; }
+        public string Presentcountry { get; set; }
+        public string Presentpincode { get; set; }
+        public string Permanentaddress { get; set; }
+        public string Permanentcity { get; set; }
+        public string Permanentstate { get; set; }
+        public string Permanentcountry { get; set; }
+        public string Permanentpincode { get; set; }
+        public string Aadharno { get; set; }
+        public string Uanno { get; set; }
+        public string Ispanaadhaarlinked { get; set; }
+        public string Dateofresignation { get; set; }
+        public string Dateofleaving { get; set; }
+        public string Dateoflettersubmission { get; set; }
+        public string Reason { get; set; }
+        public string Remarksforfnf { get; set; }
+        public string Cardcode { get; set; }
+        public string Groupdoj { get; set; }
+        public string OldEmployeecode { get; set; }
+        public string Attendancemode { get; set; }
+        public string Religion { get; set; }
+        public string Visauidnumber { get; set; }
+        public string Ibannumber { get; set; }
+        public string Visacountry { get; set; }
+        public string Caste { get; set; }
+        public string Alternatemobileno { get; set; }
+        public string Residentialnumber { get; set; }
+        public string Professiontaxstate { get; set; }
+        public string Grade { get; set; }
+        public string Designation { get; set; }
+        public string Department { get; set; }
+        public string Company { get; set; }
+        public string Location { get; set; }
+        public string Branch { get; set; }
+        public string Subdepartment { get; set; }
+        public string Category { get; set; }
+        public string Band { get; set; }
+        public string Level { get; set; }
+        public string Portal { get; set; }
+        public string Roledesignation { get; set; }
+        public string Line { get; set; }
+        public string Shift { get; set; }
+        public string Ildl { get; set; }
+        public string Gross { get; set; }
+        public string Ssn { get; set; }
+        public string Stage { get; set; }
+    }
+}
